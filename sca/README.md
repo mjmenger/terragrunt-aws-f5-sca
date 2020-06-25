@@ -23,3 +23,8 @@ This should work
 ```shell
 terragrunt apply-all
 ``` 
+
+## Time to clean up after yourself
+```shell
+terragrunt destroy-all
+``` 
