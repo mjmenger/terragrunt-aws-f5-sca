@@ -1,1 +1,5 @@
 **/.terraform/*
+
+# terragrunt creates the provider.tf and backend.tf files
+**/provider.tf
+**/backend.tf
