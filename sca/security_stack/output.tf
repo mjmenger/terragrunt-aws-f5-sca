@@ -107,14 +107,14 @@ output "cfe_bucket_internal" {
 }
 
 
-output "z_all_nics_extended" {
-  value = [ 
-    for nic in module.internal_az1.all_nic_ids_extended :
-      nic
-      if(nic.device_index == 1)
-  ]
-}
+# output "z_all_nics_extended" {
+#   value = [ 
+#     for nic in module.internal_az1.all_nic_ids_extended :
+#       nic
+#       if(nic.device_index == 1)
+#   ]
+# }
 
-output "z_test" {
-  value = module.internal_az2.nics_by_device_index
-}
+# output "z_test" {
+#   value = module.internal_az2.nics_by_device_index
+# }

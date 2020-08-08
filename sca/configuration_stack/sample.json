@@ -1,0 +1,722 @@
+bigip_map = {
+  "external_az1" = {
+    "0" = {
+      "us-west-1a:management:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-051a12e0a648f07cb"
+            "device_index" = 0
+            "instance" = "i-003cd7f34f8b63ff2"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-05fd8b8e7cf4c0c4f"
+        "mac_address" = "06:52:49:48:5e:ea"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-100-74.us-west-2.compute.internal"
+        "private_ip" = "10.100.100.74"
+        "private_ips" = [
+          "10.100.100.74",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-06976bbf869f73550",
+        ]
+        "source_dest_check" = true
+        "subnet_id" = "subnet-05813e28c523890fa"
+        "tags" = {
+          "bigip_interface_type" = "management"
+          "bigip_public_ip" = "true"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1a:private:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-01422d0c8b99ba195"
+            "device_index" = 2
+            "instance" = "i-003cd7f34f8b63ff2"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-027eb4a4a34f8f9c7"
+        "mac_address" = "06:7c:4e:56:19:f2"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-3-144.us-west-2.compute.internal"
+        "private_ip" = "10.100.3.144"
+        "private_ips" = [
+          "10.100.3.144",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-05175e46e34799185"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1a:private:1" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-0b13a42704d83b886"
+            "device_index" = 3
+            "instance" = "i-003cd7f34f8b63ff2"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-02012be183db38ba4"
+        "mac_address" = "06:92:b9:d2:e1:c0"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-6-86.us-west-2.compute.internal"
+        "private_ip" = "10.100.6.86"
+        "private_ips" = [
+          "10.100.6.86",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-06a679037c2e8d163"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1a:public:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-0c05f03531759e73e"
+            "device_index" = 1
+            "instance" = "i-003cd7f34f8b63ff2"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-0defe404da3d0396d"
+        "mac_address" = "06:af:03:4b:32:60"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-0-229.us-west-2.compute.internal"
+        "private_ip" = "10.100.0.229"
+        "private_ips" = [
+          "10.100.0.229",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-05faadfe0a886659c"
+        "tags" = {
+          "bigip_interface_type" = "public"
+          "bigip_public_ip" = "true"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+    }
+  }
+  "external_az2" = {
+    "0" = {
+      "us-west-1b:management:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-001b3673eadc61623"
+            "device_index" = 0
+            "instance" = "i-0f4299e1a4b075354"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-066453454eb1dc9e5"
+        "mac_address" = "02:55:92:1c:52:08"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-200-165.us-west-2.compute.internal"
+        "private_ip" = "10.100.200.165"
+        "private_ips" = [
+          "10.100.200.165",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-06976bbf869f73550",
+        ]
+        "source_dest_check" = true
+        "subnet_id" = "subnet-05d8c13d14093506a"
+        "tags" = {
+          "bigip_interface_type" = "management"
+          "bigip_public_ip" = "true"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1b:private:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-01b06546e19feae23"
+            "device_index" = 2
+            "instance" = "i-0f4299e1a4b075354"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-035121eda1f2946b0"
+        "mac_address" = "02:79:c8:43:cc:ca"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-13-26.us-west-2.compute.internal"
+        "private_ip" = "10.100.13.26"
+        "private_ips" = [
+          "10.100.13.26",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-0d9df32cc2e158e31"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1b:private:1" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-015e553484f268e34"
+            "device_index" = 3
+            "instance" = "i-0f4299e1a4b075354"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-0b66b03c82a348839"
+        "mac_address" = "02:46:22:4b:5a:08"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-16-240.us-west-2.compute.internal"
+        "private_ip" = "10.100.16.240"
+        "private_ips" = [
+          "10.100.16.240",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-04e33dd61b596d1f1"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1b:public:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-0140cf2ab96ddb0ba"
+            "device_index" = 1
+            "instance" = "i-0f4299e1a4b075354"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-0c282f3f284e6bb62"
+        "mac_address" = "02:bd:66:0e:c0:c4"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-10-71.us-west-2.compute.internal"
+        "private_ip" = "10.100.10.71"
+        "private_ips" = [
+          "10.100.10.71",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-0503debfec75f6999"
+        "tags" = {
+          "bigip_interface_type" = "public"
+          "bigip_public_ip" = "true"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+    }
+  }
+  "internal_az1" = {
+    "0" = {
+      "us-west-1a:management:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-054479a2ea2980aca"
+            "device_index" = 0
+            "instance" = "i-03e9e75ee0340ff73"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-0efee2830d53d0987"
+        "mac_address" = "06:c4:99:9c:ff:32"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-100-159.us-west-2.compute.internal"
+        "private_ip" = "10.100.100.159"
+        "private_ips" = [
+          "10.100.100.159",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-06976bbf869f73550",
+        ]
+        "source_dest_check" = true
+        "subnet_id" = "subnet-05813e28c523890fa"
+        "tags" = {
+          "bigip_interface_type" = "management"
+          "bigip_public_ip" = "true"
+          "f5_cloud_failover_label" = "sca-mm2-internal-75b7"
+        }
+      }
+      "us-west-1a:private:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-0bda732613d77e20f"
+            "device_index" = 2
+            "instance" = "i-03e9e75ee0340ff73"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-00760b83bcd24a4c8"
+        "mac_address" = "06:8c:c7:a3:91:18"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-3-190.us-west-2.compute.internal"
+        "private_ip" = "10.100.3.190"
+        "private_ips" = [
+          "10.100.3.190",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-05175e46e34799185"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1a:private:1" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-01fc770ffca85ca2b"
+            "device_index" = 3
+            "instance" = "i-03e9e75ee0340ff73"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-057a1472e52a74d7b"
+        "mac_address" = "06:f5:39:e4:72:84"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-9-124.us-west-2.compute.internal"
+        "private_ip" = "10.100.9.124"
+        "private_ips" = [
+          "10.100.9.124",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-0f514e134cef86477"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1a:public:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-046f85ed6e766c666"
+            "device_index" = 1
+            "instance" = "i-03e9e75ee0340ff73"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-0de6e37b8ab6f72ca"
+        "mac_address" = "06:b0:00:c9:b8:a4"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-7-250.us-west-2.compute.internal"
+        "private_ip" = "10.100.7.250"
+        "private_ips" = [
+          "10.100.7.250",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-049e587c9dbac7648"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+    }
+  }
+  "internal_az2" = {
+    "0" = {
+      "us-west-1b:management:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-08dc4fe77629e53f1"
+            "device_index" = 0
+            "instance" = "i-04a9f75b0631f1bdd"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-03ce6332f069389c7"
+        "mac_address" = "02:b1:2d:48:70:6c"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-200-94.us-west-2.compute.internal"
+        "private_ip" = "10.100.200.94"
+        "private_ips" = [
+          "10.100.200.94",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-06976bbf869f73550",
+        ]
+        "source_dest_check" = true
+        "subnet_id" = "subnet-05d8c13d14093506a"
+        "tags" = {
+          "bigip_interface_type" = "management"
+          "bigip_public_ip" = "true"
+          "f5_cloud_failover_label" = "sca-mm2-internal-75b7"
+        }
+      }
+      "us-west-1b:private:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-0d0df4b3dec825e34"
+            "device_index" = 2
+            "instance" = "i-04a9f75b0631f1bdd"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-0442174422e1190b8"
+        "mac_address" = "02:d3:ef:ab:bf:42"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-13-187.us-west-2.compute.internal"
+        "private_ip" = "10.100.13.187"
+        "private_ips" = [
+          "10.100.13.187",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-0d9df32cc2e158e31"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1b:private:1" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-0d8bcb79ad82ee33f"
+            "device_index" = 3
+            "instance" = "i-04a9f75b0631f1bdd"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-0ecafb4a53ca9364f"
+        "mac_address" = "02:f0:89:a7:26:7c"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-19-137.us-west-2.compute.internal"
+        "private_ip" = "10.100.19.137"
+        "private_ips" = [
+          "10.100.19.137",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-0c77fe71236c0f285"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1b:public:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-0bb98421591e5ca9d"
+            "device_index" = 1
+            "instance" = "i-04a9f75b0631f1bdd"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-0c9f178df9fd725a5"
+        "mac_address" = "02:4b:b9:38:4e:50"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-17-20.us-west-2.compute.internal"
+        "private_ip" = "10.100.17.20"
+        "private_ips" = [
+          "10.100.17.20",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-0523aff234de6da42"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+    }
+  }
+  "ips_az1" = {
+    "0" = {
+      "us-west-1a:management:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-071274cbf0bd849e2"
+            "device_index" = 0
+            "instance" = "i-0c8b3a33488f33831"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-06a5721ab2e8d8e3e"
+        "mac_address" = "06:8a:d8:68:a9:14"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-100-24.us-west-2.compute.internal"
+        "private_ip" = "10.100.100.24"
+        "private_ips" = [
+          "10.100.100.24",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-06976bbf869f73550",
+        ]
+        "source_dest_check" = true
+        "subnet_id" = "subnet-05813e28c523890fa"
+        "tags" = {
+          "bigip_interface_type" = "management"
+          "bigip_public_ip" = "true"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1a:private:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-0fa80e912476bd99d"
+            "device_index" = 2
+            "instance" = "i-0c8b3a33488f33831"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-018adf2f81a57e3f1"
+        "mac_address" = "06:4e:96:4f:8d:ec"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-3-18.us-west-2.compute.internal"
+        "private_ip" = "10.100.3.18"
+        "private_ips" = [
+          "10.100.3.18",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-05175e46e34799185"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1a:private:1" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-06ac360a904ba4c2c"
+            "device_index" = 3
+            "instance" = "i-0c8b3a33488f33831"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-008df3b4436db7712"
+        "mac_address" = "06:03:30:c5:2e:2a"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-7-122.us-west-2.compute.internal"
+        "private_ip" = "10.100.7.122"
+        "private_ips" = [
+          "10.100.7.122",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-049e587c9dbac7648"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1a:public:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-09d89f23334979250"
+            "device_index" = 1
+            "instance" = "i-0c8b3a33488f33831"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-0cad84450b30e1ad8"
+        "mac_address" = "06:32:b5:15:ff:d0"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-6-12.us-west-2.compute.internal"
+        "private_ip" = "10.100.6.12"
+        "private_ips" = [
+          "10.100.6.12",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-06a679037c2e8d163"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+    }
+  }
+  "ips_az2" = {
+    "0" = {
+      "us-west-1b:management:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-070f07446728a615a"
+            "device_index" = 0
+            "instance" = "i-0c16606f064c44501"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-05c514cf935f7d3fb"
+        "mac_address" = "02:5f:f9:36:71:fe"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-200-87.us-west-2.compute.internal"
+        "private_ip" = "10.100.200.87"
+        "private_ips" = [
+          "10.100.200.87",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-06976bbf869f73550",
+        ]
+        "source_dest_check" = true
+        "subnet_id" = "subnet-05d8c13d14093506a"
+        "tags" = {
+          "bigip_interface_type" = "management"
+          "bigip_public_ip" = "true"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1b:private:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-0a9612d67ad53ea42"
+            "device_index" = 2
+            "instance" = "i-0c16606f064c44501"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-024bed0fd6af3a997"
+        "mac_address" = "02:58:05:4f:55:ac"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-13-63.us-west-2.compute.internal"
+        "private_ip" = "10.100.13.63"
+        "private_ips" = [
+          "10.100.13.63",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-0d9df32cc2e158e31"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1b:private:1" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-02abfa76ea392e4a0"
+            "device_index" = 3
+            "instance" = "i-0c16606f064c44501"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-0504d82533bb3815f"
+        "mac_address" = "02:b9:5a:55:2f:d4"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-17-40.us-west-2.compute.internal"
+        "private_ip" = "10.100.17.40"
+        "private_ips" = [
+          "10.100.17.40",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-0523aff234de6da42"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+      "us-west-1b:public:0" = {
+        "attachment" = [
+          {
+            "attachment_id" = "eni-attach-08edfd1b7d6faa8e0"
+            "device_index" = 1
+            "instance" = "i-0c16606f064c44501"
+          },
+        ]
+        "description" = ""
+        "id" = "eni-04947bc5e73502c61"
+        "mac_address" = "02:04:1a:28:22:ca"
+        "outpost_arn" = ""
+        "private_dns_name" = "ip-10-100-16-39.us-west-2.compute.internal"
+        "private_ip" = "10.100.16.39"
+        "private_ips" = [
+          "10.100.16.39",
+        ]
+        "private_ips_count" = 0
+        "security_groups" = [
+          "sg-0757e70045c03efad",
+        ]
+        "source_dest_check" = false
+        "subnet_id" = "subnet-04e33dd61b596d1f1"
+        "tags" = {
+          "bigip_interface_type" = "private"
+          "bigip_public_ip" = "false"
+          "f5_cloud_failover_label" = ""
+        }
+      }
+    }
+  }
+}
